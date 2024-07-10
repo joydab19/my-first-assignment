@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
 }
-/* full body styles end here */
+/* full body styles end here */ 
 /* nav-bar style start here */
 .nav-bar{
     display: flex;
@@ -278,5 +278,61 @@ a{
     opacity: 0.7;
 }
 /* next-target-section styles end here */
+/* support-section style start here */
+.support-section{
+    padding: 40px 50px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin: 18px;
+    text-align: center;
+}
+.support-description{
+    text-align: center;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+#question{
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+}
+#question-sent{
+    border: none;
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #0D1321;
+}
+/* support-section style end here */
+/* footer-section styles start here */
+.footer-section{
+    display: flex;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+    margin: 32px 150px;
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1.00);
+    margin: 18px;
+    text-align: center;;
+}
+/* footer-section styles end here */
 
 
