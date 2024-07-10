@@ -106,7 +106,7 @@ main{
     margin: 0 auto;
     padding: 50px;
     border-radius: 16px;
-    background-color: rgba(13, 19, 33, 0.02);;
+    background-color: rgba(13, 19, 33, 0.02);
 }
 /* main tag styles end here */
 
@@ -172,15 +172,16 @@ main{
 
 /* inspiration section start here */
 .inspiration{
-    margin-top: 50px;
+    margin: 40px 50px;
+    background: white;
+
 }
 .inspiration-section-title{
-    color: #0D1321;
-    opacity: 100%;
-    margin-bottom: 24px;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 800;
+    color: #0D1321;
     text-align: center;
+    margin: 10px 20px 47px;
 }
 .inspiration-section-description{
     font-size: 16px;
@@ -195,5 +196,69 @@ iframe{
     border-radius: 20px;
     padding: 30px;
 }
+/* inspiration section styles end here */
+
+/* target section start here */
+.target-section{
+    margin: 40px 50px;
+}
+.target-section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+    margin: 10px 20px 47px;
+}
+.target-section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+    padding: 40px 50px;
+}
+/* shared color style start here*/
+.color-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.color-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.color-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.card{
+    padding: 40px;
+}
+img{
+    margin: 24px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 1);
+    margin: 18px;
+}
+.card-description{
+    text-align: start;
+    margin: 12px;
+}
+a{
+    margin: 12px;
+    color: black;
+    font-size: 16;
+    font-weight: 700;
+}
+/* target section styles end here */
+
+/* next-target-section styles start here */
+
+/* next-target-section styles end here */
 
 
