@@ -10,20 +10,6 @@
     padding: 0px;
 }
 /* full body styles end here */
-
-/* overall color class start here */
-.color-1{
-
-}
-.color-2{
-
-}
-/* overall color class end here */
-
-/* overall button class start here */
-
-/* overall button class end here */
-
 /* nav-bar style start here */
 .nav-bar{
     display: flex;
@@ -48,7 +34,6 @@
     opacity: 0.9;
 }
 /* nav-bar style start here */
-
 /* banner-section styles start here */
 .banner-section{
     background-image: url(../assets/Hero-bg.png);
@@ -61,7 +46,6 @@
 }
 .banner-img{
     margin: 20px;
-
 }
 .banner-content{
     display: flex;
@@ -99,7 +83,6 @@
     background: rgb(13, 19, 33);
 }
 /* banner-section styles end here */
-
 /* main tag styles start here */
 main{
     max-width: 1140px;
@@ -109,7 +92,6 @@ main{
     background-color: rgba(13, 19, 33, 0.02);
 }
 /* main tag styles end here */
-
 /* web-section styles start here */
 .web-section{
     margin: 40px 50px;
@@ -167,14 +149,11 @@ main{
     border-radius: 5px;
 }
 /* shared styles end here */
-
 /* web-section styles end here */
-
-/* inspiration section start here */
+/* inspiration section styles start here */
 .inspiration{
     margin: 40px 50px;
     background: white;
-
 }
 .inspiration-section-title{
     font-size: 32px;
@@ -197,8 +176,7 @@ iframe{
     padding: 30px;
 }
 /* inspiration section styles end here */
-
-/* target section start here */
+/* target section styles start here */
 .target-section{
     margin: 40px 50px;
 }
@@ -232,7 +210,7 @@ iframe{
 .color-3{
     background-color: rgba(255, 223, 0, 0.05);
 }
-
+/* shared color styles end here */
 .card{
     padding: 40px;
 }
@@ -258,7 +236,47 @@ a{
 /* target section styles end here */
 
 /* next-target-section styles start here */
-
+.next-target-section{
+    padding: 40px 50px;
+}
+.next-target-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+    margin: 10px 20px 47px;
+}
+.next-target-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+.skills{
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    border: 1px solid rgba(13, 19, 33, 1.00);
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 24px;
+}
+.skills-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 1.00);
+    margin: 18px;
+}
+.skills-description{
+    text-align: start;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
 /* next-target-section styles end here */
 
 
