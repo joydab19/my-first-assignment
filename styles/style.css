@@ -297,13 +297,19 @@ a{
 }
 .support-description{
     text-align: center;
-    margin: 12px;
+    margin-bottom: 40px;
     font-size: 16px;
     font-weight: 400;
     color: white;
 }
+.submit{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
 #question{
     border-radius: 15px;
+    border: none;
     padding: 20px;
     font-size: 16px;
     font-weight: 400px;
